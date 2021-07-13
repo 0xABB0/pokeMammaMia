@@ -1,52 +1,36 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+*.o
+*.i
+*.elf
+*.gba
+*.sgm
+*.sa1
+*.ss[0-9]
+*.sg1
+*.1bpp
+*.4bpp
+*.8bpp
+*.gbapal
+*.lz
+*.rl
+*.latfont
+*.hwjpnfont
+*.fwjpnfont
+sound/**/*.bin
+sound/songs/midi/*.s
+tools/agbcc
+*.map
+*.ld
+*.bat
+*.dump
+*.sa*
+Thumbs.db
+build/
+.DS_Store
+*.ddump
+.idea/
+porymap.project.cfg
+.vscode/
+*.a
+.fuse_hidden*
+*.sna
